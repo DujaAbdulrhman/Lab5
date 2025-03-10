@@ -4,7 +4,7 @@
 package com.example.eventsystem.Controller;
 
 import com.example.eventsystem.Api.ApiResponse;
-import com.example.eventsystem.Model.eventModel;  // Ensure this import points to your Event model
+import com.example.eventsystem.Model.eventModel;  
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
