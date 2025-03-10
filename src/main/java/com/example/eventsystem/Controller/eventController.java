@@ -1,31 +1,4 @@
-/*
-package com.example.eventsystem.Controller;
 
-import com.example.eventsystem.Api.ApiResponse;
-import jdk.jfr.Event;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.ArrayList;
-
-
-@RestController
-@RequestMapping("/api/v1/event")
-public class eventController {
-    ArrayList<Event> events = new ArrayList<>();
-
-    @PostMapping("/add")
-    public ApiResponse addEvent(@RequestBody Event event) {
-        events.add(event);
-        return new ApiResponse("Event added successfully");
-    }
-
-    @GetMapping("/get")
-    public ArrayList<Event> getEvent() {
-        return events;
-    }
-
-}
-*/
 
 
 package com.example.eventsystem.Controller;
